@@ -33,8 +33,8 @@ html-css-course/
 
 | # | Lesson | Status |
 |---|--------|--------|
-| 1 | HTML Basics | ⏳ ✅ Done |
-| 2 | CSS Basics | ⏳ Upcoming |
+| 1 | HTML Basics | ✅ Done |
+| 2 | CSS Basics | ✅ Done |
 | 3 | Hovers, Transitions, Shadows | ⏳ Upcoming |
 | 4 | Chrome DevTools & CSS Box Model | ⏳ Upcoming |
 | 5 | Text Styles | ⏳ Upcoming |
