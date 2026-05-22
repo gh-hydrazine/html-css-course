@@ -38,7 +38,7 @@ html-css-course/
 | 3 | Hovers, Transitions, Shadows | ✅ Done |
 | 4 | Chrome DevTools & CSS Box Model | ✅ Done |
 | 5 | Text Styles | ✅ Done |
-| 6 | The HTML Structure | ⏳ Upcoming |
+| 6 | The HTML Structure | ✅ Done |
 | 7 | Images and Text Boxes | ⏳ Upcoming |
 | 8 | CSS Display Property | ⏳ Upcoming |
 | 9 | The div Element | ⏳ Upcoming |
