@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    font-size: 20px;
+}
+
+
+.thumbnail {
+    width: 400px;
+    display: block;
+}
