@@ -41,7 +41,7 @@ html-css-course/
 | 6 | The HTML Structure | ✅ Done |
 | 7 | Images and Text Boxes | ✅ Done |
 | 8 | CSS Display Property | ✅ Done |
-| 9 | The div Element | ⏳ Upcoming |
+| 9 | The div Element | ✅ Done |
 | 10 | Nested Layouts Technique | ⏳ Upcoming |
 | 11 | CSS Grid | ⏳ Upcoming |
 | 12 | Flexbox | ⏳ Upcoming |

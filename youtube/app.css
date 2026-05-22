@@ -4,10 +4,19 @@ body {
 
 .search {
     font-size: 20px;
+    display: block;
 }
-
 
 .thumbnail {
     width: 400px;
-    display: block;
+}
+
+.video-title {
+    width: 400px;
+}
+ 
+.video-preview {
+    width: 400px;
+    display: inline-block;
+    margin-left: 15px;
 }

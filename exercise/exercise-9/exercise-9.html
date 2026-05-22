@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 9 </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .square {
+            background-color: red;
+            width:100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        .circle {
+            background-color: green; 
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+
+        .survey {
+            border: solid 1px black;
+            margin: 10px;
+            width: 300px;
+            padding: 30px;
+            font-size: 16px;
+            background-color: rgb(37, 32, 66);
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        
+        .survey-text {
+            margin: 0px;
+            margin-bottom: 10px;
+        }
+
+        .survey-btn {
+            width: 60px;
+            padding: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            color: whitesmoke;
+            background-color: blueviolet;
+            border: none;
+            border-radius: 4px;
+            margin-right: 6px;
+            margin-top: 10px;
+        }
+
+        .promo {
+            border: none;
+            background-color: rgb(51, 49, 49);
+            color: white;
+            width: 300px;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .promo-text {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0px;
+        }
+
+        .promo-decs {
+            margin: 10px 0px;
+        }
+
+        .tweet {
+            border: solid 1px gray;
+            display: inline-block;
+            padding:2px 20px;
+            border-radius: 200px;
+        }
+
+        .tweet-profile {
+            height: 70px;
+            width: 60px;
+            border-radius: 50px;
+            vertical-align: middle;
+            margin: 10px;
+        }
+
+        .tweet-text {
+            font-size: 20px;
+            border: none;
+        }
+
+        .tweet-btn {
+            font-size: 18px;
+            width: 100px;
+            padding: 5px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(62, 130, 255);
+            color: white;
+            font-weight: bold;
+        }
+
+        .friend-card {
+            margin: 10px;
+            border: solid 1px black;
+            display: inline-block;
+            border-radius: 10px;
+            height: 330px;
+        }
+
+        .friend-pfp {
+            border-radius: 10px 10px 0px 0px;
+            margin: 0;
+        }
+
+        .friend-name {
+            font-weight: bold;
+            margin: 5px 8px;
+            margin-bottom: 1px;
+        }
+
+        .friend-decs {
+            margin: 0px 8px;
+            font-size: 10px;
+            color: gray;
+        }
+
+        .btn-friend {
+            margin: 5px 8px;
+            color: white;
+            background-color: rgb(66, 66, 221);
+            padding: 10px;
+            width:150px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+        }
+
+
+        .google {
+            height: 100px;
+            display: block;
+            margin: auto;
+        }
+
+        .search--google {
+            width: 400px;
+            height: 40px;
+            padding: 5px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 1px 2px 5px;
+            margin-bottom:  50px;
+            margin-top: 10px;
+        } 
+
+        .google-card {
+            text-align: center;
+            padding: 20px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="square"></div>
+    <div class="circle"></div>
+
+    <div class="survey">
+        <p class="survey-text">Sastified with our services ?</p>
+        <button class="survey-btn">Yes</button>
+        <button class="survey-btn">No</button>
+    </div>
+
+    <div class="promo">
+        <p class="promo-text">Install YouTube Music</p>
+        <p class="promo-decs">Add YouTube Music to your dekstop for quick and easy access</p>
+    </div>
+
+    <div class="tweet">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXJzp_wey8HksR9nm_K2TyC89L8aCfVfcWA&s" alt="" class="tweet-profile">
+        <input type="text" class="tweet-text" placeholder="What's happening">
+         <button class="tweet-btn">Tweet</button>
+    </div>
+
+    <div class="friends">
+        <div class="friend-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXJzp_wey8HksR9nm_K2TyC89L8aCfVfcWA&s" alt="" class="friend-pfp">
+            <p class="friend-name">Iron Man</p>
+            <p class="friend-decs">Billionare</p>
+            <button class="btn-friend">Add Friend</button>
+        </div>
+        <div class="friend-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXJzp_wey8HksR9nm_K2TyC89L8aCfVfcWA&s" alt="" class="friend-pfp">
+            <p class="friend-name">Iron Man</p>
+            <p class="friend-decs">Billionare</p>
+            <button class="btn-friend">Add Friend</button>
+        </div>
+        <div class="friend-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXJzp_wey8HksR9nm_K2TyC89L8aCfVfcWA&s" alt="" class="friend-pfp">
+            <p class="friend-name">Iron Man</p>
+            <p class="friend-decs">Billionare</p>
+            <button class="btn-friend">Add Friend</button>
+        </div>
+    </div>
+
+     <div class="google-card">
+        <img src="https://static.vecteezy.com/system/resources/previews/028/667/072/non_2x/google-logo-icon-symbol-free-png.png" alt="" class="google">
+        <input type="text" class="search--google" placeholder="Search with Google">
+        <div class="btn-google">
+            <button class="btn-google">Feeling Lucky</button>
+            <button class="btn-google">Google Search</button>
+        </div>
+     </div>
+</body>
+</html>
