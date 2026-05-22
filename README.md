@@ -35,7 +35,7 @@ html-css-course/
 |---|--------|--------|
 | 1 | HTML Basics | ✅ Done |
 | 2 | CSS Basics | ✅ Done |
-| 3 | Hovers, Transitions, Shadows | ⏳ Upcoming |
+| 3 | Hovers, Transitions, Shadows | ✅ Done |
 | 4 | Chrome DevTools & CSS Box Model | ⏳ Upcoming |
 | 5 | Text Styles | ⏳ Upcoming |
 | 6 | The HTML Structure | ⏳ Upcoming |
