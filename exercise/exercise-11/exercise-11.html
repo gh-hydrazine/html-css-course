@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .card {
+            border: solid 1px black;
+        }
+
+        .dp {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .username {
+            font-weight: bold;
+            margin-left: 8px;
+            font-size: 24px;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: 20px 1fr;
+            padding: 8px;
+            vertical-align: center;
+        }
+
+        .logo {
+            width: 100%;
+            height: 20px;
+        }
+
+
+        .stat {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .btn {
+            margin-left: 8px;
+            width: 120px;
+            height: 30px;
+            border: 1px dashed white;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+            outline: none;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div style="
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 20px;">
+        <div style="background: lightblue;">200px</div>
+        <div style="background: lightpink;">75px</div>
+    </div>
+
+    <div style="
+        display: grid;
+        grid-template-columns: 150px 1fr 75px;
+        margin-bottom: 20px;">
+        <div style="background: lightblue;">col1</div>
+        <div style="background: lightpink;">col2</div>
+        <div style="background: lightblue;"">col3</div>
+    </div>
+
+    <div style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+        height: 300px;
+        margin-bottom: 100px;">
+        <div  style="background: lightpink;">col2</div>
+        <div  style="background: lightpink;">col1</div>
+        <div  style="background: lightpink;">col3</div>
+        <div  style="background: lightpink;">col4</div>
+        <div  style="background: lightpink;">col1</div>
+        <div  style="background: lightpink;">col2</div>
+        <div  style="background: lightpink;">col3</div>
+        <div  style="background: lightpink;">col4</div>           
+    </div>
+
+    <div class="card-grid">
+        <div class="card">
+            <div class="profile">
+                <img src="https://cdn.dribbble.com/userupload/11184075/file/original-dd77cbb202b6ec1b80b2a2d5b734f836.jpg" alt="" class="dp">
+            </div>
+            <div class="profile-info">
+                <p class="username">Spidey</p>
+                <div class="stat-grid">
+                    <img src="https://dl.myminifactory.com/object-assets/5c8959c2e14ef/images/720X720-spiderman.jpg" alt="" class="logo">
+                    <p class="stat">Agent Available ✅</p>
+                </div>
+                <button class="btn">Deploy</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="profile">
+                <img src="https://cdn.dribbble.com/userupload/11184075/file/original-dd77cbb202b6ec1b80b2a2d5b734f836.jpg" alt="" class="dp">
+            </div>
+            <div class="profile-info">
+                <p class="username">Spidey</p>
+                <div class="stat-grid">
+                    <img src="https://dl.myminifactory.com/object-assets/5c8959c2e14ef/images/720X720-spiderman.jpg" alt="" class="logo">
+                    <p class="stat">Agent Available ✅</p>
+                </div>
+                <button class="btn">Deploy</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="profile">
+                <img src="https://cdn.dribbble.com/userupload/11184075/file/original-dd77cbb202b6ec1b80b2a2d5b734f836.jpg" alt="" class="dp">
+            </div>
+            <div class="profile-info">
+                <p class="username">Spidey</p>
+                <div class="stat-grid">
+                    <img src="https://dl.myminifactory.com/object-assets/5c8959c2e14ef/images/720X720-spiderman.jpg" alt="" class="logo">
+                    <p class="stat">Agent Available ✅</p>
+                </div>
+                <button class="btn">Deploy</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

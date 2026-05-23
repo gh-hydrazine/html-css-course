@@ -43,7 +43,7 @@ html-css-course/
 | 8 | CSS Display Property | ✅ Done |
 | 9 | The div Element | ✅ Done |
 | 10 | Nested Layouts Technique | ✅ Done |
-| 11 | CSS Grid | ⏳ Upcoming |
+| 11 | CSS Grid | ✅ Done |
 | 12 | Flexbox | ⏳ Upcoming |
 | 13 | Nested Flexbox | ⏳ Upcoming |
 | 14 | CSS Position | ⏳ Upcoming |
