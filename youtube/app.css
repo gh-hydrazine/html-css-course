@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 p {
@@ -7,9 +8,26 @@ p {
     font-family: Roboto, Arial;
 }
 
+.nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .search {
     font-size: 16px;
-    display: block;
+    flex: 1;
+    max-width: 500px;
+}
+
+.left-section {
+    width: 140px;
+    margin-right: 80px;
+}
+
+.right-section {
+    width: 200px;
+    margin-left: 40px;
 }
 
 .video-grid {

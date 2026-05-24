@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Exercise 12</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .one {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .two {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        
+        .three {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .fourth {
+            display: flex;
+            border: solid 1px black;
+            height: 80px;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .notif-card {
+            border: solid 1px black;
+            width: 200px;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+
+        .home,
+        .notif,
+        .messages {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .messages {
+            margin-bottom: 0px;
+        }
+    
+        .badge {
+            background-color: rgb(31, 76, 224);
+            width: 40px;
+            text-align: center;
+            color: white;
+            padding: 2px 0px;
+            border: none;
+            border-radius: 100px;
+        }
+
+
+        .friend-card-grid {
+            background-color: rgb(209, 233, 255);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .friend-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            width: 350px;
+            border: solid 1px gray;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .user-dp {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+
+        .user-info-grid {
+            display: flex;
+            align-items: center;
+        }
+
+        .username {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .user-bio {
+            color: rgb(99, 98, 98);
+            font-size: 14px;
+        }
+
+        .user-pop {
+            font-size: 14px;
+        }
+
+        .cta-btn {
+            font-size: 16px;
+            padding: 3px 20px;
+            color: white;
+            border: none;
+            background-color: rgb(117, 115, 255);
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .nav {
+            background-color: rgb(107, 15, 160);
+            width: 95%;
+            margin: auto;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-home {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            margin-left: 20px;
+        }
+
+        .nav-search {
+            max-width: 500px;
+            padding: 5px;
+            height: 30px;
+            border-radius: 100px;
+            padding-left: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            flex: 1;
+        }
+
+        .nav-btn {
+            font-size: 16px;
+            padding: 10px 20px;
+            color: white;
+            border: solid 1px white;
+            background-color: rgb(107, 15, 160) ;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div style="background-color: lightpink; width: 200px;">200px</div>
+        <div style="background-color: lightblue; width: 75px;">75px</div>
+    </div>
+
+    <div class="two">
+        <div style="background-color: lightpink; width: 50px;">item 1</div>
+        <div style="background-color: lightblue; flex: 1;">item 2</div>
+        <div style="background-color: lightpink; width: 75px;">item 3</div>
+    </div>
+    
+    <div class="three">
+        <div style="background-color: lightpink;">item 1</div>
+        <div style="background-color: lightblue; ;">item 2</div>
+        <div style="background-color: lightpink;">item 3</div>
+        <div style="background-color: lightblue;">item 4</div>
+    </div>
+
+    <div class="fourth">
+        <div style="background-color: lightpink; height: 30px;">item1</div>
+        <div style="background-color: lightblue; height: 30px;"">item2</div>
+    </div>
+
+    <div class="notif-card">
+        <div class="home">
+            <p>Home</p>
+            <p class="badge">14</p>
+        </div>
+        <div class="notif">
+            <p>Notificiation</p>
+            <p class="badge">3</p>
+        </div>
+        <div class="messages">
+            <p>Messages</p>
+            <p class="badge">5</p>
+        </div>
+    </div>
+
+    <div class="friend-card-grid">
+        <div class="friend-card">
+            <div class="user-info-grid">
+                <img src="https://cdn.marvel.com/content/2x/005smp_ons_cut_mob_01_6.jpg" alt="" class="user-dp">
+                <div class="user-info">
+                    <p class="username">SpiderMan</p>
+                    <p class="user-bio">It's Sticky</p>
+                    <p class="user-pop">Popular</p>
+                </div>
+            </div>
+
+            <div class="cta">
+                <button class="cta-btn">Follow</button>
+            </div>
+        </div>
+
+         <div class="friend-card">
+            <div class="user-info-grid">
+                <img src="https://cdn.marvel.com/content/2x/005smp_ons_cut_mob_01_6.jpg" alt="" class="user-dp">
+                <div class="user-info">
+                    <p class="username">SpiderMan</p>
+                    <p class="user-bio">It's Sticky</p>
+                    <p class="user-pop">Popular</p>
+                </div>
+            </div>
+
+            <div class="cta">
+                <button class="cta-btn">Follow</button>
+            </div>
+        </div>
+
+         <div class="friend-card">
+            <div class="user-info-grid">
+                <img src="https://cdn.marvel.com/content/2x/005smp_ons_cut_mob_01_6.jpg" alt="" class="user-dp">
+                <div class="user-info">
+                    <p class="username">SpiderMan</p>
+                    <p class="user-bio">It's Sticky</p>
+                    <p class="user-pop">Popular</p>
+                </div>
+            </div>
+
+            <div class="cta">
+                <button class="cta-btn">Follow</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <p class="nav-home">Home</p>
+        <input type="text" placeholder="Search" class="nav-search">
+        <button class="nav-btn">Download</button>
+    </div>
+</body>
+</html>
