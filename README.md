@@ -58,7 +58,7 @@ html-css-course/
 No setup needed. Open any `.html` file directly in your browser.
 
 ```bash
-git clone https://github.com/your-username/html-css-course.git
+git clone https://github.com/gh-hydrazine/html-css-course.git
 cd html-css-course
 ```
 
